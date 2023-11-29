@@ -1,0 +1,33 @@
+import turtle
+t= turtle.Turtle()
+t.fillcolor("red")
+t.left(90)
+t.fillcolor("red")
+t.begin_fill()
+t.circle(50)
+t.end_fill()
+t.left(180)
+t.fillcolor("yellow")
+t.begin_fill()
+t.circle(50)
+t.end_fill()
+t.left(90)
+t.penup()
+t.forward(200)
+t.down()
+t.left(90)
+t.fillcolor("green")
+t.begin_fill()
+t.circle(50)
+t.end_fill()
+a=input("какой цвет?")
+print("цвет", a , "стой на месте")
+b=input("какой цвет?")
+print("цвет", b , " подожди")
+c=input("какой цвет?")
+print("цвет", c , "погнал")
+
+
+
+
+t.end_fill()
